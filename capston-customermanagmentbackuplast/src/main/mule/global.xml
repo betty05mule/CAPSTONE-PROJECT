@@ -6,4 +6,5 @@
 http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/mule/api-gateway/current/mule-api-gateway.xsd">
 	<configuration-properties doc:name="Configuration properties" doc:id="abcc6606-a25c-458a-be30-4c39a1b43dd0" file="uat.yaml" />
 	<global-property doc:name="Global Property" doc:id="950908c1-d054-4686-ae89-82f8af6c50f9" name="env" value="uat" />
+	<api-gateway:autodiscovery apiId="15965091" doc:name="API Autodiscovery" doc:id="f6ebabe7-34e3-4745-b408-57470d49aa26" flowRef="customer-management-api-main" />
 </mule>
